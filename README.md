@@ -37,7 +37,15 @@ This project uses Vite for lightning-fast development.
 
 As requested in the interview instructions, this project was developed with the assistance of an AI coding agent. 
 
-Here is a video demo verifying the implementation and testing the specific white-card UI state transitions:
+### How the AI Agent Was Utilized
+To accelerate development while ensuring best practices, the AI agent was used for:
+1. **Project Scaffolding**: Rapidly bootstrapping the Vite + React + TypeScript environment and configuring Tailwind CSS.
+2. **Component Architecture**: Breaking down the monolithic design into clean, modular React components (`CommentModal`, `CommentCard`, `CommentForm`) for scalability.
+3. **Design Reconciliation**: Iteratively merging the complex requirements—specifically blending the dark-themed modal functionality from the second prompt image with the strict white-card UI layout required by the first image.
+4. **Automated Verification**: Using the AI agent's browser automation capabilities to autonomously interact with the local development server, verify state transitions, and record the demo video.
+
+### Video Demonstration
+Here is a video demo verifying the implementation and testing the specific UI state transitions:
 
 ![AI Component Demo Video](./demo.webp)
 
